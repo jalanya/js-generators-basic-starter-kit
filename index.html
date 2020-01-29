@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Console</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="theme-color" content="#e8e8e8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <script>
+      var require = {
+      urlArgs: 'version=0.1.0',
+        waitSeconds: 0
+      };
+      ((require) => {
+        Object.defineProperty(document, 'app', {
+            get: () => ({
+              name: 'generators-ui',
+              version: require.urlArgs.split('=')[1]
+            })
+        })
+      })(require)
+    </script>
+</head>
+<body>
+  Generators
+</body>
+</html>

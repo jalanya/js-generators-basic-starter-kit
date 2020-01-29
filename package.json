@@ -1,0 +1,20 @@
+{
+  "name": "js-generators-basic-starter-kit",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalanya/js-generators-basic-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "Jose Alanya <jose.alanya@gmail.com> (https://about.me/jose_alanya)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalanya/js-generators-basic-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jalanya/js-generators-basic-starter-kit#readme"
+}
